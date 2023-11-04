@@ -1,12 +1,9 @@
-<?php 
-    include 'vars.php';
-    echo $pagina
-?>
+<?php include 'vars.php';?>
     <h1 class="display-4">Tarea 03. IES Alisal. <span class="badge bg-secondary">
-            <?if($pagina=="/index.php"){  echo 'INDEX'; }?>
-            <?if($pagina=="/alumnos.php"){  echo 'ALUMNOS'; }?>
-            <?if($pagina=="/clientes.php"){  echo 'CLIENTES'; }?>
-            <?if($pagina=="/info.php"){  echo 'INFO'; }?>
+            <?php if($pagina=="/index.php"){  echo 'INDEX'; }?>
+            <?php if($pagina=="/alumnos.php"){  echo 'ALUMNOS'; }?>
+            <?php if($pagina=="/clientes.php"){  echo 'CLIENTES'; }?>
+            <?php if($pagina=="/info.php"){  echo 'INFO'; }?>
         </span>
     </h1>
 <?php
