@@ -10,8 +10,8 @@
     <body>
         <div class="container">
             <div class="jumbotron">
-				<?php include 'menu.php';?>
-				<?php
+				<?php 
+                    include 'menu.php';
 					phpinfo();
 				?>
 			</div>
