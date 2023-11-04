@@ -17,8 +17,8 @@
 <hr class="my-4">
 <p>Utilizar Apache/PHP. La BBDD es mysql y será de sólo lectura</p>
 <ul class="nav nav-tabs">
-    <li class="nav-item"><a class="nav-link<?if($pagina=="/index.php"){  echo ' active'; }?>" href="index.php">Personas</a></li>
-    <li class="nav-item"><a class="nav-link<?if($pagina=="/alumnos.php"){  echo ' active'; }?>" href="alumnos.php">Alumnos</a></li>
-    <li class="nav-item"><a class="nav-link<?if($pagina=="/clientes.php"){   echo ' active'; }?>" href="clientes.php">Clientes</a></li>
-    <li class="nav-item"><a class="nav-link<?if($pagina=="/info.php"){   echo ' active'; }?>" href="info.php">Info PHP</a></li>
+    <li class="nav-item"><a class="nav-link<?php if($pagina=="/index.php"){  echo ' active'; }?>" href="index.php">Personas</a></li>
+    <li class="nav-item"><a class="nav-link<?php if($pagina=="/alumnos.php"){  echo ' active'; }?>" href="alumnos.php">Alumnos</a></li>
+    <li class="nav-item"><a class="nav-link<?php if($pagina=="/clientes.php"){   echo ' active'; }?>" href="clientes.php">Clientes</a></li>
+    <li class="nav-item"><a class="nav-link<?php if($pagina=="/info.php"){   echo ' active'; }?>" href="info.php">Info PHP</a></li>
 </ul>
