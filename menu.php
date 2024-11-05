@@ -4,11 +4,12 @@
             <?php if($pagina=="/alumnos.php"){  echo 'ALUMNOS'; }?>
             <?php if($pagina=="/clientes.php"){  echo 'CLIENTES'; }?>
             <?php if($pagina=="/info.php"){  echo 'INFO'; }?>
+            <?php if($pagina=="/default.php"){  echo 'DEFAULT'; }?>
         </span>
     </h1>
 <?php
-    echo "<p>ID de instancia: " . @file_get_contents("http://instance-data/latest/meta-data/instance-id");
-    echo "<p>Hostname: "        . @file_get_contents("http://instance-data/latest/meta-data/public-hostname");
+    echo "<p>ID de instancia: " . @file_get_contents("http://169.254.169.254/latest/meta-data/instance-id");
+    echo "<p>Hostname: "        . @file_get_contents("http://169.254.169.254/latest/meta-data/public-hostname");
 ?>
 <p>Utilizar Apache/PHP. La BBDD es mysql y será de sólo lectura</p>
 <hr class="my-4">
